@@ -21,3 +21,4 @@ print('---------------------------------------')
 for t_str in test_str:
     result = re.match("(abcd){2}", t_str)
     print(t_str + '-->' + str(result))
+
